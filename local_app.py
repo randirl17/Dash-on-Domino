@@ -6,7 +6,6 @@ from dash.dependencies import Input, Output
 # Initialize the Dash server
 app = dash.Dash()
 app.title = 'Dash App'
- 
 
 # Style sheet for formatting
 app.css.append_css({"external_url": "https://codepen.io/chriddyp/pen/bWLwgP.css"})
